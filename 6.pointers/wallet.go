@@ -33,6 +33,8 @@ func (w *Wallet) Balance() Bitcoin {
 	return w.balance
 }
 
+// when declaring a variable using `var` keyword,
+// the variable is can be use globally across all packages
 var ErrInsufficientFunds = errors.New("insufficient amount to withdraw")
 
 func (w *Wallet) Withdraw(amount Bitcoin) error {

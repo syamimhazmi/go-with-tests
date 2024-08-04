@@ -15,6 +15,9 @@ func TestPerimeter(t *testing.T) {
 }
 
 func TestArea(t *testing.T) {
+	// Defined anonymous struct in slice.
+	// use table driven tests to build list of test cases that can be test in the same
+	// time.
 	areaTests := []struct {
 		name    string
 		shape   Shape

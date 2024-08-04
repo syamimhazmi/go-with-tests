@@ -2,6 +2,8 @@ package main
 
 import "math"
 
+// Here interface was defined
+// Any struct that use interface's method, will be assigned.
 type Shape interface {
 	Area() float64
 }
